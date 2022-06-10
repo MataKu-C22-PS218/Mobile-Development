@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Prototypea</string>
+    <string name="location">location</string>
+    <string name="switch_camera">switch camera</string>
+    <string name="camera">camera</string>
+    <string name="login">Login</string>
+    <string name="Register">Register</string>
+    <string name="sign_up">Sign Up</string>
+</resources>

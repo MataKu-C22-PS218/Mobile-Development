@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/reguser"
+        android:layout_width="286dp"
+        android:layout_height="39dp"
+        android:hint="Type your Username"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/regmail"
+        android:layout_width="286dp"
+        android:layout_height="39dp"
+        android:hint="Type your Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/reguser"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/reguser"
+        app:layout_constraintTop_toBottomOf="@+id/reguser"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/regpass"
+        android:layout_width="286dp"
+        android:layout_height="39dp"
+        android:hint="Type your Password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/regmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/regmail"
+        app:layout_constraintTop_toBottomOf="@+id/regmail"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <Button
+        android:id="@+id/btnreg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/Register"
+        app:layout_constraintEnd_toEndOf="@+id/regpass"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/regpass"
+        app:layout_constraintTop_toBottomOf="@+id/regpass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
