@@ -6,4 +6,3 @@ Team Member:
 Mobile development create 
 - Mockup
 - High-fidelity Prototype
-- Kosong 😭😭😭
