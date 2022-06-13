@@ -1,0 +1,9 @@
+Bench
+Bicycle
+Car
+Flowerpot
+Motorcycle
+Person
+Pole
+Potholes
+Truck

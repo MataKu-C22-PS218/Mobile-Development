@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnlogin.setOnClickListener { startCameraX() }
-        binding.btnreg.setOnClickListener{
+        binding.btnsign.setOnClickListener{
             val intent = Intent( this, RegisterActivity::class.java)
             startActivity(intent)
         }

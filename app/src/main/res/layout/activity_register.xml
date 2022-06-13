@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity">
+    tools:context=".RegisterActivity"
+    android:background="@color/black">
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/reguser"
         android:layout_width="286dp"
-        android:layout_height="39dp"
+        android:layout_height="48dp"
         android:hint="Type your Username"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -17,12 +18,15 @@
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.355" />
+        app:layout_constraintVertical_bias="0.355"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:gravity="center"/>
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/regmail"
         android:layout_width="286dp"
-        android:layout_height="39dp"
+        android:layout_height="48dp"
         android:hint="Type your Email"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -30,22 +34,29 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/reguser"
         app:layout_constraintTop_toBottomOf="@+id/reguser"
-        app:layout_constraintVertical_bias="0.083" />
+        app:layout_constraintVertical_bias="0.083"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:gravity="center"/>
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/regpass"
         android:layout_width="286dp"
-        android:layout_height="39dp"
+        android:layout_height="48dp"
         android:hint="Type your Password"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/regmail"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/regmail"
         app:layout_constraintTop_toBottomOf="@+id/regmail"
-        app:layout_constraintVertical_bias="0.089" />
+        app:layout_constraintVertical_bias="0.089"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:gravity="center"/>
 
     <Button
-        android:id="@+id/btnreg2"
+        android:id="@+id/btnreg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
