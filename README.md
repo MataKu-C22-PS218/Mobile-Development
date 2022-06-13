@@ -6,3 +6,6 @@ Team Member:
 Mobile development create 
 - Mockup
 - High-fidelity Prototype
+- Develope the App
+
+The app we develope using Android Studio and the primary languange is Kotlin. We create the Mockup and Hi-fi prototype using Figma and Uizard. 
